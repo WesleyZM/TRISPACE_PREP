@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# Whitelist some files
+!.gitignore
+!README.md
+
+# But not these files...
+!src/
+!src/**
+!lib/
+!lib/**
+!environments/
+!environments/postgresql.txt
+environments/postgresql2.txt
+environments/postgresql3.txt
+**.class
+!**.java
+!pom.xml
